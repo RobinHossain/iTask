@@ -1,6 +1,5 @@
 # Lumen with JWT Authentication
 Basically this is a starter kit for you to integrate Lumen with [JWT Authentication](https://jwt.io/).
-If you want to Lumen + Dingo + JWT for your current application, please check [here](https://github.com/krisanalfa/lumen-dingo-adapter).
 
 ## What's Added
 
@@ -9,8 +8,8 @@ If you want to Lumen + Dingo + JWT for your current application, please check [h
 - [Dingo](https://github.com/dingo/api) to easily and quickly build your own API. <sup>[1]</sup>
 - [Lumen Generator](https://github.com/flipboxstudio/lumen-generator) to make development even easier and faster.
 - [CORS and Preflight Request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) support.
+- AngularJS Admin Dashboard(Fuse Template from themeforest)
 
-> [1] Added via [this package](https://packagist.org/packages/krisanalfa/lumen-dingo-adapter).
 
 ## Quick Start
 
@@ -30,11 +29,6 @@ If you want to Lumen + Dingo + JWT for your current application, please check [h
 php -S localhost:8000 -t public/
 ```
 
-Or via artisan command:
-
-```sh
-php artisan serve
-```
 
 To authenticate a user, make a `POST` request to `/api/auth/login` with parameter as mentioned below:
 
@@ -82,13 +76,7 @@ Response:
     }
   }
 }
-```
 
-- To refresh your token, simply send a `PATCH` request to `/api/auth/refresh`.
-- Last but not least, you can also invalidate token by sending a `DELETE` request to `/api/auth/invalidate`.
-- To list all registered routes inside your application, you may execute `php artisan route:list`
-
-```
 ⇒  php artisan route:list
 +--------+----------------------+---------------------+------------------------------------------+------------------+------------+
 | Verb   | Path                 | NamedRoute          | Controller                               | Action           | Middleware |
@@ -103,7 +91,9 @@ Response:
 
 ## Future
 
-I will make a standalone package that would works on your current project.
+Here is the dashboard example with contact module. Use following credential to login:
+login: robinsabbir@gmail.com
+password: robinsabbir@gmail.com
 
 ## License
 
