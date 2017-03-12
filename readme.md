@@ -1,6 +1,11 @@
 # Lumen with JWT Authentication
 Basically this is a starter kit for you to integrate Lumen with [JWT Authentication](https://jwt.io/).
 
+## [Demo](http://itask.w3bd.com)
+Use following credential to login:
+- login: robinsabbir@gmail.com
+- password: robinsabbir@gmail.com
+
 ## What's Added
 
 - [Lumen 5.3](https://github.com/laravel/lumen/tree/v5.3.0).
@@ -91,7 +96,8 @@ Response:
 
 ## Future
 
-Here is the dashboard example with contact module. Use following credential to login:
+Here is the dashboard example with contact module. [Demo](http://itask.w3bd.com)
+Use following credential to login:
 login: robinsabbir@gmail.com
 password: robinsabbir@gmail.com
 
